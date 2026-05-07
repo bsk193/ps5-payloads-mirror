@@ -1,5 +1,17 @@
 [
   {
+    "name": "kstuff-toggle",
+    "filename": "kstuff-toggle_0.6.elf",
+    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/kstuff-toggle_0.6.elf",
+    "source": "https://github.com/EchoStretch/kstuff-toggle/releases",
+    "source_direct": "https://github.com/EchoStretch/kstuff-toggle/releases/download/0.6/kstuff-toggle.zip",
+    "extract_file": "kstuff-toggle-3.elf",
+    "description": "Boost homebrew game performance on your PS5 by disabling Kstuff after launching the game.",
+    "last_update": "2026-05-07",
+    "version": "0.6",
+    "checksum": "a1e99f2758aea98e78a37d1a1c2f79b08187acb35c7410eec4c8f4763162768f"
+  },
+  {
     "name": "pldmgr",
     "filename": "pldmgr_v0.1.1.elf",
     "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/pldmgr_v0.1.1.elf",
@@ -98,18 +110,6 @@
     "last_update": "2026-04-02",
     "version": "v0.22.2",
     "checksum": "b456a30d5f1d4941b985a44e06613018f608cc9c62bf992e2564494d365216cd"
-  },
-  {
-    "name": "kstuff-toggle",
-    "filename": "kstuff-toggle_0.5.elf",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/kstuff-toggle_0.5.elf",
-    "source": "https://github.com/EchoStretch/kstuff-toggle/releases",
-    "source_direct": "https://github.com/EchoStretch/kstuff-toggle/releases/download/0.5/kstuff-toggle.zip",
-    "extract_file": "kstuff-toggle-3.elf",
-    "description": "Boost homebrew game performance on your PS5 by disabling Kstuff after launching the game.",
-    "last_update": "2026-03-29",
-    "version": "0.5",
-    "checksum": "cc1a29f7b1b83d54416cd96f0aff001177317c7d53eefadd2637a1869ab3b605"
   },
   {
     "name": "garlic-savemgr",
