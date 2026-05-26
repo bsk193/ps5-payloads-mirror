@@ -1,14 +1,25 @@
 [
   {
     "name": "kstuff-lite",
-    "filename": "kstuff-lite_v1.05.elf",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/kstuff-lite_v1.05.elf",
+    "filename": "kstuff-lite_v1.06.elf",
+    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/kstuff-lite_v1.06.elf",
     "source": "https://github.com/EchoStretch/kstuff-lite/releases",
-    "source_direct": "https://github.com/EchoStretch/kstuff-lite/releases/download/v1.05/kstuff.elf",
+    "source_direct": "https://github.com/EchoStretch/kstuff-lite/releases/download/v1.06/kstuff.elf",
     "description": "Lite version of kstuff",
-    "last_update": "2026-05-22",
-    "version": "v1.05",
-    "checksum": "7c8f6b9f442fb0e64be5316764b4688d660a4d4ddf213d9ed11ae88f58ce99a4"
+    "last_update": "2026-05-25",
+    "version": "v1.06",
+    "checksum": "c8523b06ae2eab935f93e8a538ee3ef36df4ffd6bbc301ecdbff21ff12d654f2"
+  },
+  {
+    "name": "websrv",
+    "filename": "websrv_v0.32.elf",
+    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/websrv_v0.32.elf",
+    "source": "https://github.com/ps5-payload-dev/websrv/releases",
+    "source_direct": "https://github.com/ps5-payload-dev/websrv/releases/download/v0.32/websrv-ps5.elf",
+    "description": "A simple web server that accepts connections on port 8080",
+    "last_update": "2026-05-25",
+    "version": "v0.32",
+    "checksum": "8dd24df100bff6db156e86bdf9380d5c0fcd2a680c2b08f5c87380d5007190c5"
   },
   {
     "name": "ShadowMountPlus",
@@ -21,17 +32,6 @@
     "last_update": "2026-05-13",
     "version": "1.6test11",
     "checksum": "035de95e2808fa8f285523e061f39df97732ab56b80628f5989cd167b1e6f6df"
-  },
-  {
-    "name": "websrv",
-    "filename": "websrv_v0.31.elf",
-    "url": "https://github.com/itsPLK/ps5-payloads-mirror/releases/download/payloads-mirror/websrv_v0.31.elf",
-    "source": "https://github.com/ps5-payload-dev/websrv/releases",
-    "source_direct": "https://github.com/ps5-payload-dev/websrv/releases/download/v0.31/websrv-ps5.elf",
-    "description": "A simple web server that accepts connections on port 8080",
-    "last_update": "2026-05-13",
-    "version": "v0.31",
-    "checksum": "bfe1664adf119a953a7a9c0aef2f817adadd014823eabfa3ad3d0de2ab0aa8c2"
   },
   {
     "name": "ftpsrv",
