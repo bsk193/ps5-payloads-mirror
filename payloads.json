@@ -156,7 +156,7 @@
     "description": "Local DNS proxy server",
     "last_update": "2026-06-03",
     "version": "0.3",
-    "checksum": "c1c8b31036ab948da65b362a4b6f249ffca8a555fc5bc4b051ec65d041bc944"
+    "checksum": "ce1c8b31036ab948da65b362a4b6f249ffca8a555fc5bc4b051ec65d041bc944"
   },
   {
     "name": "Lapy-JB-Daemon",
@@ -223,7 +223,7 @@
     "description": "Boost homebrew game performance on your PS5 by disabling Kstuff after launching the game.",
     "last_update": "2026-05-07",
     "version": "0.6",
-    "checksum": "a1e99f2758aea98e78a37d1a1c2f79b08187acb35c7410eec4c8f4763162768f"
+    "checksum": "0e87e92959791d9edf04c314802fcf18ccf37db74ae353d434a0062557f85093"
   },
   {
     "name": "PS5 App Dumper",
