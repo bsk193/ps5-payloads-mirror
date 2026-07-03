@@ -256,9 +256,9 @@
     "checksum": "092d16ee0ede0c494947efd38d1a17bbd7cc4b022d3858ea898833c188c703e8"
   },
   {
-    "name": "KStuffToggle",
-    "filename": "KStuffToggle_0.6.elf",
-    "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/KStuffToggle_0.6.elf",
+    "name": "KSToggle",
+    "filename": "KStuff_toggle_0.6.elf",
+    "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/KStuff_toggle_0.6.elf",
     "source": "https://github.com/EchoStretch/kstuff-toggle/releases",
     "source_direct": "https://github.com/EchoStretch/kstuff-toggle/releases/download/0.6/kstuff-toggle.zip",
     "extract_file": "kstuff-toggle-3.elf",
