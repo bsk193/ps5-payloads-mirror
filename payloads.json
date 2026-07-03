@@ -28,7 +28,7 @@
     "checksum": "17294fb95736b9871457c255c0fa2ce2fc2c0401f5cc5b26abd077393b018361"
   },
   {
-    "name": "ShadowMount+",
+    "name": "ShadowMountPlus",
     "filename": "ShadowMount_1.6beta16.elf",
     "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/ShadowMount_1.6beta16.elf",
     "source": "https://github.com/drakmor/ShadowMountPlus/releases",
@@ -256,7 +256,7 @@
     "checksum": "092d16ee0ede0c494947efd38d1a17bbd7cc4b022d3858ea898833c188c703e8"
   },
   {
-    "name": "KStuff (toggle)",
+    "name": "KStuffToggle",
     "filename": "KStuff_toggle_0.6.elf",
     "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/KStuff_toggle_0.6.elf",
     "source": "https://github.com/EchoStretch/kstuff-toggle/releases",
