@@ -49,9 +49,15 @@ def get_repo_info(url):
 def get_latest_release(domain, owner, repo):
     try:
         if domain == "github.com":
-            cmd = ["gh", "api", f"repos/{owner}/{repo}/releases/latest"]
-            result = subprocess.run(cmd, capture_output=True, text=True, check=True)
-            return json.loads(result.stdout)
+            try:
+                cmd = ["gh", "api", f"repos/{owner}/{repo}/releases/latest"]
+                result = subprocess.run(cmd, capture_output=True, text=True, check=True)
+                return json.loads(result.stdout)
+            except Exception:
+                api_url = f"https://api.github.com/repos/{owner}/{repo}/releases/latest"
+                req = urllib.request.Request(api_url, headers={'User-Agent': 'Mozilla/5.0'})
+                with urllib.request.urlopen(req) as response:
+                    return json.loads(response.read().decode('utf-8'))
         else:
             api_url = f"https://{domain}/api/v1/repos/{owner}/{repo}/releases/latest"
             req = urllib.request.Request(api_url, headers={'User-Agent': 'Mozilla/5.0'})
