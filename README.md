@@ -5,6 +5,7 @@ This repository contains an automated mirror of useful payloads for the PlayStat
 ## Available Payloads
 
 <!-- PAYLOADS_START -->
+
 | Payload | Version | Category | Description | Last Updated | Source | Download |
 | --- | --- | --- | --- | --- | --- | --- |
 | **PS5 Linux Loader** | `v2.3` | Linux | Linux payload implementing HV exploits to run a custom bootloader | `2026-07-01` | [Source](https://github.com/ps5-linux/ps5-linux-loader/releases) | [Download](https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/PS5_Linux_Loader_v2_3.elf) |
@@ -34,6 +35,7 @@ This repository contains an automated mirror of useful payloads for the PlayStat
 | **etaHEN** | `2.5B` | HEN | AIO HEN payload | `2025-12-25` | [Source](https://github.com/etaHEN/etaHEN/releases) | [Download](https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/etaHEN_2_5B.bin) |
 | **OffAct** | `v0.4.2` | Utilities | PS5 offline account activation | `2025-06-28` | [Source](https://github.com/ps5-payload-dev/offact/releases) | [Download](https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/OffAct_v0_4_2.elf) |
 | **LinkDev** | `v0.4.2` | Utilities | Link devices to jailbroken PS5s without access to the PSN network | `2025-06-28` | [Source](https://github.com/ps5-payload-dev/linkdev/releases) | [Download](https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/LinkDev_v0_4_2.elf) |
+
 <!-- PAYLOADS_END -->
 
 ## Support & Suggestions

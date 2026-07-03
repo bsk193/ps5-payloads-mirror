@@ -132,35 +132,37 @@ This repository contains an automated mirror of useful payloads for the PlayStat
 ## Available Payloads
 
 <!-- PAYLOADS_START -->
+
 {table_content}
+
 <!-- PAYLOADS_END -->
 
 ## Support & Suggestions
 
-If you have suggestions for a new payload to be added or if there's an important issue with some payload, please report them in the [Issues section](https://github.com/itsPLK/ps5-payloads-mirror/issues/new).
+If you have suggestions for a new payload to be added or if there's an important issue with some payload, please report them in the [Issues section](https://github.com/bsk193/ps5-payloads-mirror/issues/new).
 """
 
     if not os.path.exists(readme_path):
         print(f"Creating {readme_path}...")
-        with open(readme_path, "w") as f:
+        with open(readme_path, "w", newline="\n") as f:
             f.write(template)
     else:
         print(f"Updating {readme_path}...")
-        with open(readme_path, "r") as f:
-            content = f.read()
-            
+        with open(readme_path, "r", newline="") as f:
+            content = f.read().replace("\r\n", "\n").replace("\r", "\n")
+
         start_marker = "<!-- PAYLOADS_START -->"
         end_marker = "<!-- PAYLOADS_END -->"
-        
+
         if start_marker in content and end_marker in content:
             pattern = re.compile(f"{start_marker}.*?{end_marker}", re.DOTALL)
-            new_content = pattern.sub(f"{start_marker}\\n{table_content}\\n{end_marker}", content)
-            with open(readme_path, "w") as f:
+            new_content = pattern.sub(f"{start_marker}\n\n{table_content}\n\n{end_marker}", content)
+            with open(readme_path, "w", newline="\n") as f:
                 f.write(new_content)
         else:
             print("Markers not found in README.md. Appending table at the end.")
-            with open(readme_path, "a") as f:
-                f.write(f"\\n## Available Payloads\\n\\n{start_marker}\\n{table_content}\\n{end_marker}\\n")
+            with open(readme_path, "a", newline="\n") as f:
+                f.write(f"\n## Available Payloads\n\n{start_marker}\n\n{table_content}\n\n{end_marker}\n")
 
 
 def get_mirror_assets():
