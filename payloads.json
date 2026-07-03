@@ -9,7 +9,8 @@
     "last_update": "2026-07-01",
     "version": "v2.3",
     "checksum": "0723b5d5e09120861023e91780d9ec345a3aa2f32c8a17fdfb3a60a9e934e8a5",
-    "category": "Linux"
+    "category": "Linux",
+    "min_fw": "3.00-7.61"
   },
   {
     "name": "KStuff (lite)",
@@ -21,7 +22,8 @@
     "last_update": "2026-06-28",
     "version": "v1.08",
     "checksum": "17294fb95736b9871457c255c0fa2ce2fc2c0401f5cc5b26abd077393b018361",
-    "category": "Kernel"
+    "category": "Kernel",
+    "min_fw": "3.00-12.70"
   },
   {
     "name": "ShadowMount+",
@@ -34,7 +36,8 @@
     "last_update": "2026-06-28",
     "version": "1.6beta16",
     "checksum": "a35246fb3bb6042b25653b51cdcbc33254b40339342bf1d2dd0d2eceee2ca526",
-    "category": "Storage"
+    "category": "Storage",
+    "min_fw": "3.00-12.70"
   },
   {
     "name": "websrv",
@@ -182,7 +185,8 @@
     "last_update": "2026-06-01",
     "version": "v1.2",
     "checksum": "13559b858fc33cc7fa3dc89e10dccf139070d99ee5d378dd75c969293700799e",
-    "category": "HEN"
+    "category": "HEN",
+    "min_fw": "3.00-12.00"
   },
   {
     "name": "KStuff (lite) by Drakmor",
@@ -243,7 +247,8 @@
     "last_update": "2026-05-07",
     "version": "0.6",
     "checksum": "0e87e92959791d9edf04c314802fcf18ccf37db74ae353d434a0062557f85093",
-    "category": "Kernel"
+    "category": "Kernel",
+    "min_fw": "3.00-13.20"
   },
   {
     "name": "PS5 App Dumper",
@@ -267,7 +272,8 @@
     "last_update": "2026-04-30",
     "version": "0.1",
     "checksum": "d74e4cd119b2bb1fd423f2f5b1c9a7f096b3e588c753af1ab48b983d56216a52",
-    "category": "Utilities"
+    "category": "Utilities",
+    "min_fw": "3.00-12.00"
   },
   {
     "name": "ftpsrv by Drakmor",
@@ -291,7 +297,8 @@
     "last_update": "2026-01-04",
     "version": "v1.6.7",
     "checksum": "f1c1f4b2b6395644af04cbe9828aba58586acf7aacb9e01113cac92ce16e3569",
-    "category": "Kernel"
+    "category": "Kernel",
+    "min_fw": "3.00-10.01"
   },
   {
     "name": "etaHEN",
@@ -303,7 +310,8 @@
     "last_update": "2025-12-25",
     "version": "2.5B",
     "checksum": "4845cac45095361b8983b14d6690622183b0dcfbf6d7fda16e161aa91ff0531e",
-    "category": "HEN"
+    "category": "HEN",
+    "min_fw": "3.00-10.01"
   },
   {
     "name": "OffAct",
