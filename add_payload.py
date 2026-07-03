@@ -9,7 +9,7 @@ import zipfile
 import tempfile
 import shutil
 from datetime import datetime
-from update_payloads import update_readme, sanitize_for_filename
+from update_payloads import update_readme, sanitize_for_filename, sanitize_for_version
 
 JSON_FILE = "payloads.json"
 PAYLOADS_DIR = "payloads"
@@ -144,7 +144,7 @@ def add_payload():
     else:
         ext = selected_asset["name"].rsplit('.', 1)[1] if '.' in selected_asset["name"] else "bin"
         
-    filename = f"{sanitize_for_filename(repo)}.{ext}"
+    filename = f"{sanitize_for_filename(repo)}_{sanitize_for_version(new_version)}.{ext}"
     filepath = os.path.join(PAYLOADS_DIR, filename)
     
     extract_file = None

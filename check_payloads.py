@@ -1,6 +1,6 @@
 import json
 import os
-from update_payloads import update_readme, sanitize_for_filename
+from update_payloads import update_readme, sanitize_for_filename, sanitize_for_version
 
 JSON_FILE = "payloads.json"
 BASE_URL = "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror"
@@ -37,10 +37,11 @@ def check_payloads():
         if not item.get("category"):
             issues.append(f"[{name}] missing category (will show as Uncategorized in pldmgr)")
 
-        # Auto-fix: normalize filename (spaces/dots/special chars -> underscores)
-        if item.get("filename"):
+        # Auto-fix: normalize filename — name part uses underscores, version part keeps dots
+        if item.get("filename") and item.get("version"):
             ext = item["filename"].rsplit(".", 1)[1] if "." in item["filename"] else "elf"
-            expected = f"{sanitize_for_filename(name)}.{ext}"
+            version_tag = item["version"].split(" FW ")[0] if " FW " in item["version"] else item["version"]
+            expected = f"{sanitize_for_filename(name)}_{sanitize_for_version(version_tag)}.{ext}"
             if item["filename"] != expected:
                 item["filename"] = expected
                 fixes.append(f"[{name}] filename normalized to {expected}")

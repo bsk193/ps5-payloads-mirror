@@ -13,7 +13,14 @@ from datetime import datetime
 JSON_FILE = "payloads.json"
 
 def sanitize_for_filename(s):
+    """Sanitize the name part of a filename: spaces/dots/parens → underscore."""
     s = re.sub(r'[\s.()+]+', '_', s)
+    s = re.sub(r'_+', '_', s)
+    return s.strip('_')
+
+def sanitize_for_version(s):
+    """Sanitize the version part of a filename: keep dots/hyphens, replace spaces/parens."""
+    s = re.sub(r'[\s()+]+', '_', s)
     s = re.sub(r'_+', '_', s)
     return s.strip('_')
 PAYLOADS_DIR = "payloads"
@@ -303,7 +310,7 @@ def update_payloads():
             else:
                 ext = original_filename.rsplit('.', 1)[1] if '.' in original_filename else "bin"
             
-            new_filename = f"{sanitize_for_filename(final_name)}.{ext}"
+            new_filename = f"{sanitize_for_filename(final_name)}_{sanitize_for_version(new_version)}.{ext}"
 
             min_fw = item.get("min_fw")
             version_display = f"{new_version} FW {min_fw}" if min_fw else new_version
