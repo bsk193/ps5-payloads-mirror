@@ -38,9 +38,9 @@ def check_payloads():
             issues.append(f"[{name}] missing category (will show as Uncategorized in pldmgr)")
 
         # Auto-fix: normalize filename (spaces/dots/special chars -> underscores)
-        if item.get("filename") and item.get("version"):
+        if item.get("filename"):
             ext = item["filename"].rsplit(".", 1)[1] if "." in item["filename"] else "elf"
-            expected = f"{sanitize_for_filename(name)}_{sanitize_for_filename(item['version'])}.{ext}"
+            expected = f"{sanitize_for_filename(name)}.{ext}"
             if item["filename"] != expected:
                 item["filename"] = expected
                 fixes.append(f"[{name}] filename normalized to {expected}")

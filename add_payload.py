@@ -143,7 +143,7 @@ def add_payload():
     else:
         ext = selected_asset["name"].rsplit('.', 1)[1] if '.' in selected_asset["name"] else "bin"
         
-    filename = f"{sanitize_for_filename(repo)}_{sanitize_for_filename(new_version)}.{ext}"
+    filename = f"{sanitize_for_filename(repo)}.{ext}"
     filepath = os.path.join(PAYLOADS_DIR, filename)
     
     extract_file = None

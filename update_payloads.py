@@ -303,7 +303,7 @@ def update_payloads():
             else:
                 ext = original_filename.rsplit('.', 1)[1] if '.' in original_filename else "bin"
             
-            new_filename = f"{sanitize_for_filename(final_name)}_{sanitize_for_filename(new_version)}.{ext}"
+            new_filename = f"{sanitize_for_filename(final_name)}.{ext}"
             
             filepath = os.path.join(PAYLOADS_DIR, new_filename)
             needs_download = (
