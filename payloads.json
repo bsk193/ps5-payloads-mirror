@@ -5,13 +5,13 @@
     "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/PS5_Linux_Loader_v2.3.elf",
     "source": "https://github.com/ps5-linux/ps5-linux-loader/releases",
     "source_direct": "https://github.com/ps5-linux/ps5-linux-loader/releases/download/v2.3/ps5-linux-loader.elf",
-    "description": "Linux payload implementing HV exploits to run a custom bootloader",
-    "last_update": "3.00-7.61",
-    "version": "v2.3",
-    "checksum": "0723b5d5e09120861023e91780d9ec345a3aa2f32c8a17fdfb3a60a9e934e8a5",
     "category": "Linux",
     "min_fw": "3.00-7.61",
-    "release_date": "2026-07-01"
+    "description": "Linux payload implementing HV exploits to run a custom bootloader",
+    "last_update": "3.00-7.61",
+    "release_date": "2026-07-01",
+    "version": "v2.3 FW 3.00-7.61",
+    "checksum": "0723b5d5e09120861023e91780d9ec345a3aa2f32c8a17fdfb3a60a9e934e8a5"
   },
   {
     "name": "KStuff (lite)",
@@ -19,13 +19,13 @@
     "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/KStuff_lite_v1.08.elf",
     "source": "https://github.com/EchoStretch/kstuff-lite/releases",
     "source_direct": "https://github.com/EchoStretch/kstuff-lite/releases/download/v1.08/kstuff.elf",
-    "description": "Lite version of kstuff",
-    "last_update": "3.00-12.70",
-    "version": "v1.08",
-    "checksum": "17294fb95736b9871457c255c0fa2ce2fc2c0401f5cc5b26abd077393b018361",
     "category": "Kernel",
     "min_fw": "3.00-12.70",
-    "release_date": "2026-06-28"
+    "description": "Lite version of kstuff",
+    "last_update": "3.00-12.70",
+    "release_date": "2026-06-28",
+    "version": "v1.08 FW 3.00-12.70",
+    "checksum": "17294fb95736b9871457c255c0fa2ce2fc2c0401f5cc5b26abd077393b018361"
   },
   {
     "name": "ShadowMount+",
@@ -34,13 +34,13 @@
     "source": "https://github.com/drakmor/ShadowMountPlus/releases",
     "source_direct": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.6beta16/ShadowMountPlus_1.6beta16.zip",
     "extract_file": "shadowmountplus.elf",
-    "description": "A fully automated, background 'Auto-Mounter' payload for Jailbroken PlayStation 5 consoles.",
-    "last_update": "3.00-12.70",
-    "version": "1.6beta16",
-    "checksum": "a35246fb3bb6042b25653b51cdcbc33254b40339342bf1d2dd0d2eceee2ca526",
     "category": "Storage",
     "min_fw": "3.00-12.70",
-    "release_date": "2026-06-28"
+    "description": "A fully automated, background 'Auto-Mounter' payload for Jailbroken PlayStation 5 consoles.",
+    "last_update": "3.00-12.70",
+    "release_date": "2026-06-28",
+    "version": "1.6beta16 FW 3.00-12.70",
+    "checksum": "a35246fb3bb6042b25653b51cdcbc33254b40339342bf1d2dd0d2eceee2ca526"
   },
   {
     "name": "websrv",
@@ -48,12 +48,12 @@
     "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/websrv_v0.33.elf",
     "source": "https://github.com/ps5-payload-dev/websrv/releases",
     "source_direct": "https://github.com/ps5-payload-dev/websrv/releases/download/v0.33/websrv-ps5.elf",
+    "category": "Network",
     "description": "A simple web server that accepts connections on port 8080",
     "last_update": "2026-06-28",
+    "release_date": "2026-06-28",
     "version": "v0.33",
-    "checksum": "4676a40ac4c7ca1adeb04980efa48dd33a8961446b42e6a12abfcbe96090c8ac",
-    "category": "Network",
-    "release_date": "2026-06-28"
+    "checksum": "4676a40ac4c7ca1adeb04980efa48dd33a8961446b42e6a12abfcbe96090c8ac"
   },
   {
     "name": "shsrv",
@@ -61,12 +61,12 @@
     "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/shsrv_v0.19.elf",
     "source": "https://github.com/ps5-payload-dev/shsrv/releases",
     "source_direct": "https://github.com/ps5-payload-dev/shsrv/releases/download/v0.19/shsrv-ps5.elf",
+    "category": "Network",
     "description": "A simple telnet-like shell server for jailbroken PS5s that accepts connections on port 2323",
     "last_update": "2026-06-28",
+    "release_date": "2026-06-28",
     "version": "v0.19",
-    "checksum": "797827b50a93dbf327abdca45063d76ea24b17e561d927f397a0b73cadb2e2bd",
-    "category": "Network",
-    "release_date": "2026-06-28"
+    "checksum": "797827b50a93dbf327abdca45063d76ea24b17e561d927f397a0b73cadb2e2bd"
   },
   {
     "name": "PS5Upload",
@@ -75,12 +75,12 @@
     "source": "https://github.com/phantomptr/ps5upload/releases",
     "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v3.3.24/ps5upload-3.3.24.elf",
     "asset_pattern": "ps5upload.*\\.elf",
+    "category": "File Transfer",
     "description": "PS5 Upload is a tool designed to get your apps and homebrew onto your console without the headache of slow transfers.",
     "last_update": "2026-06-28",
+    "release_date": "2026-06-28",
     "version": "v3.3.24",
-    "checksum": "0669701436835059cf5ddefbc7a739268fcb621337b59922d1670d36a5599896",
-    "category": "File Transfer",
-    "release_date": "2026-06-28"
+    "checksum": "0669701436835059cf5ddefbc7a739268fcb621337b59922d1670d36a5599896"
   },
   {
     "name": "Pegasus-DL",
@@ -88,12 +88,12 @@
     "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/Pegasus-DL_v1.7.0.elf",
     "source": "https://github.com/pegasus-ps5/pegasus-dl/releases",
     "source_direct": "https://github.com/pegasus-ps5/pegasus-dl/releases/download/v1.7.0/pegasus_dl.elf",
+    "category": "Package Manager",
     "description": "Direct package downloading from your PS5",
     "last_update": "2026-06-24",
+    "release_date": "2026-06-24",
     "version": "v1.7.0",
-    "checksum": "cb2a4b3c248323f2432ce118cb1bf4975146035239ce9b571a9bdb51b3fee226",
-    "category": "Package Manager",
-    "release_date": "2026-06-24"
+    "checksum": "cb2a4b3c248323f2432ce118cb1bf4975146035239ce9b571a9bdb51b3fee226"
   },
   {
     "name": "ps5debug-NG",
@@ -101,12 +101,12 @@
     "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/ps5debug-NG_1.3.0.elf",
     "source": "https://github.com/OpenSourcereR-dev/ps5debug-NG/releases",
     "source_direct": "https://github.com/OpenSourcereR-dev/ps5debug-NG/releases/download/1.3.0/ps5debug-NG_v1.3.0.elf",
+    "category": "Debug",
     "description": "PS5 debugger payload - userland TCP wire-protocol server hosted inside SceShellCore.",
     "last_update": "2026-06-21",
+    "release_date": "2026-06-21",
     "version": "1.3.0",
-    "checksum": "8f75fb90b45d7cc4d59147e3323577d7264cf572c78a27f76722202f492ad16a",
-    "category": "Debug",
-    "release_date": "2026-06-21"
+    "checksum": "8f75fb90b45d7cc4d59147e3323577d7264cf572c78a27f76722202f492ad16a"
   },
   {
     "name": "BFpilot",
@@ -115,12 +115,12 @@
     "source": "https://github.com/ItsBlurf/BFpilot/releases",
     "source_direct": "https://github.com/ItsBlurf/BFpilot/releases/download/v0.3/bfpilot.elf",
     "asset_pattern": "^bfpilot\\.elf$",
+    "category": "File Manager",
     "description": "Lightweight PS5 file manager that is browser based",
     "last_update": "2026-06-19",
+    "release_date": "2026-06-19",
     "version": "v0.3",
-    "checksum": "7aa63351a21bf7a663e95dee78409f9cd06fac29fc329fae902652399a3ffe46",
-    "category": "File Manager",
-    "release_date": "2026-06-19"
+    "checksum": "7aa63351a21bf7a663e95dee78409f9cd06fac29fc329fae902652399a3ffe46"
   },
   {
     "name": "BFpilot (installer)",
@@ -129,12 +129,12 @@
     "source": "https://github.com/ItsBlurf/BFpilot/releases",
     "source_direct": "https://github.com/ItsBlurf/BFpilot/releases/download/v0.3/bfpilot-launcher-installer.elf",
     "asset_pattern": "bfpilot-launcher-installer",
+    "category": "File Manager",
     "description": "Homescreen tile creator/installer for BFpilot",
     "last_update": "2026-06-19",
+    "release_date": "2026-06-19",
     "version": "v0.3",
-    "checksum": "46645d64c4e0f087ceb3339d4a70b359c03f5360f565a22109c292cf0a27a8d9",
-    "category": "File Manager",
-    "release_date": "2026-06-19"
+    "checksum": "46645d64c4e0f087ceb3339d4a70b359c03f5360f565a22109c292cf0a27a8d9"
   },
   {
     "name": "zftpd",
@@ -143,12 +143,12 @@
     "source": "https://github.com/seregonwar/zftpd/releases",
     "source_direct": "https://github.com/seregonwar/zftpd/releases/download/v1.5.0/zftpd-ps5-zhttp-v1.5.0.elf",
     "asset_pattern": "zhttp",
+    "category": "File Transfer",
     "description": "Zero-copy FTP/HTTP Server",
     "last_update": "2026-06-14",
+    "release_date": "2026-06-14",
     "version": "v1.5.0",
-    "checksum": "6cf6a738112fc339619ebe772690fa611f60ecdb20164a0e3f49e137277bc42b",
-    "category": "File Transfer",
-    "release_date": "2026-06-14"
+    "checksum": "6cf6a738112fc339619ebe772690fa611f60ecdb20164a0e3f49e137277bc42b"
   },
   {
     "name": "Garlic Save Manager",
@@ -156,12 +156,12 @@
     "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/Garlic_Save_Manager_v1.10.elf",
     "source": "https://git.etawen.dev/earthonion/garlic-savemgr/releases",
     "source_direct": "https://git.etawen.dev/earthonion/garlic-savemgr/releases/download/v1.10/garlic-savemgr.elf",
+    "category": "Save Manager",
     "description": "PS5 save decrypt/encrypt/browse with embedded web UI.",
     "last_update": "2026-06-11",
+    "release_date": "2026-06-11",
     "version": "v1.10",
-    "checksum": "b82bf7aa83943c957f56c1b65c0739057d6b21f5b417215db17c9418fc265a27",
-    "category": "Save Manager",
-    "release_date": "2026-06-11"
+    "checksum": "b82bf7aa83943c957f56c1b65c0739057d6b21f5b417215db17c9418fc265a27"
   },
   {
     "name": "Payload Manager",
@@ -169,12 +169,12 @@
     "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/Payload_Manager_v0.3.1.elf",
     "source": "https://github.com/itsPLK/pldmgr/releases",
     "source_direct": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.3.1/pldmgr_v0.3.1.elf",
+    "category": "Utilities",
     "description": "A modern, web-based dashboard to easily manage, import, and automatically load payloads on your PS5.",
     "last_update": "2026-06-06",
+    "release_date": "2026-06-06",
     "version": "v0.3.1",
-    "checksum": "518740adbacccb9094fadb07dd424c53ee290f38306449ccc9d6957fdf813c0b",
-    "category": "Utilities",
-    "release_date": "2026-06-06"
+    "checksum": "518740adbacccb9094fadb07dd424c53ee290f38306449ccc9d6957fdf813c0b"
   },
   {
     "name": "nanoDNS",
@@ -182,12 +182,12 @@
     "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/nanoDNS_0.3.elf",
     "source": "https://github.com/drakmor/nanoDNS/releases",
     "source_direct": "https://github.com/drakmor/nanoDNS/releases/download/0.3/nanodns.elf",
+    "category": "Network",
     "description": "Local DNS proxy server",
     "last_update": "2026-06-03",
+    "release_date": "2026-06-03",
     "version": "0.3",
-    "checksum": "ce1c8b31036ab948da65b362a4b6f249ffca8a555fc5bc4b051ec65d041bc944",
-    "category": "Network",
-    "release_date": "2026-06-03"
+    "checksum": "ce1c8b31036ab948da65b362a4b6f249ffca8a555fc5bc4b051ec65d041bc944"
   },
   {
     "name": "Lapy-JB-Daemon",
@@ -195,13 +195,13 @@
     "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/Lapy-JB-Daemon_v1.2.elf",
     "source": "https://github.com/itsPLK/PS5-Lapy-JB-Daemon/releases",
     "source_direct": "https://github.com/itsPLK/PS5-Lapy-JB-Daemon/releases/download/v1.2/lapy_jb_daemon-v1.2.elf",
-    "description": "Standalone homebrew jailbreak daemon for PS5. Mimics etaHEN's jailbreak-on-demand API.",
-    "last_update": "3.00-12.00",
-    "version": "v1.2",
-    "checksum": "13559b858fc33cc7fa3dc89e10dccf139070d99ee5d378dd75c969293700799e",
     "category": "HEN",
     "min_fw": "3.00-12.00",
-    "release_date": "2026-06-01"
+    "description": "Standalone homebrew jailbreak daemon for PS5. Mimics etaHEN's jailbreak-on-demand API.",
+    "last_update": "3.00-12.00",
+    "release_date": "2026-06-01",
+    "version": "v1.2 FW 3.00-12.00",
+    "checksum": "13559b858fc33cc7fa3dc89e10dccf139070d99ee5d378dd75c969293700799e"
   },
   {
     "name": "KStuff (lite) by Drakmor",
@@ -209,12 +209,12 @@
     "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/KStuff_lite_by_Drakmor_1.2-dr-test1.elf",
     "source": "https://github.com/drakmor/kstuff-lite/releases",
     "source_direct": "https://github.com/drakmor/kstuff-lite/releases/download/1.2-dr-test1/kstuff.elf",
+    "category": "Kernel",
     "description": "drakmor's fork of kstuff-lite",
     "last_update": "2026-05-31",
+    "release_date": "2026-05-31",
     "version": "1.2-dr-test1",
-    "checksum": "9c1b242eaed3704ef18be45d001a2c4ebf2d9222cfe3cbb0f0c3db33309abac9",
-    "category": "Kernel",
-    "release_date": "2026-05-31"
+    "checksum": "9c1b242eaed3704ef18be45d001a2c4ebf2d9222cfe3cbb0f0c3db33309abac9"
   },
   {
     "name": "ftpsrv",
@@ -222,12 +222,12 @@
     "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/ftpsrv_v0.20.elf",
     "source": "https://github.com/ps5-payload-dev/ftpsrv/releases",
     "source_direct": "https://github.com/ps5-payload-dev/ftpsrv/releases/download/v0.20/ftpsrv-ps5.elf",
+    "category": "File Transfer",
     "description": "A simple FTP server that accepts connections on port 2121",
     "last_update": "2026-05-12",
+    "release_date": "2026-05-12",
     "version": "v0.20",
-    "checksum": "8f305a959fb9d70fd8d52ba88409e0d5a1632e83d4ecdd38646a0a33e54089da",
-    "category": "File Transfer",
-    "release_date": "2026-05-12"
+    "checksum": "8f305a959fb9d70fd8d52ba88409e0d5a1632e83d4ecdd38646a0a33e54089da"
   },
   {
     "name": "klogsrv",
@@ -235,12 +235,12 @@
     "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/klogsrv_v0.8.elf",
     "source": "https://github.com/ps5-payload-dev/klogsrv/releases",
     "source_direct": "https://github.com/ps5-payload-dev/klogsrv/releases/download/v0.8/klogsrv-ps5.elf",
+    "category": "Debug",
     "description": "A simple socket server that redirects /dev/klog to sockets connected on port 3232",
     "last_update": "2026-05-12",
+    "release_date": "2026-05-12",
     "version": "v0.8",
-    "checksum": "f6eb1b415ecf3340b89a56a0cb04ba5c714430085851ada13a98012b63a5a4cf",
-    "category": "Debug",
-    "release_date": "2026-05-12"
+    "checksum": "f6eb1b415ecf3340b89a56a0cb04ba5c714430085851ada13a98012b63a5a4cf"
   },
   {
     "name": "ELF Loader",
@@ -248,12 +248,12 @@
     "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/ELF_Loader_v0.23.elf",
     "source": "https://github.com/ps5-payload-dev/elfldr/releases",
     "source_direct": "https://github.com/ps5-payload-dev/elfldr/releases/download/v0.23/elfldr-ps5.elf",
+    "category": "Utilities",
     "description": "An ELF loader for jailbroken PS5s that accepts payloads on port 9021",
     "last_update": "2026-05-12",
+    "release_date": "2026-05-12",
     "version": "v0.23",
-    "checksum": "092d16ee0ede0c494947efd38d1a17bbd7cc4b022d3858ea898833c188c703e8",
-    "category": "Utilities",
-    "release_date": "2026-05-12"
+    "checksum": "092d16ee0ede0c494947efd38d1a17bbd7cc4b022d3858ea898833c188c703e8"
   },
   {
     "name": "KStuff (toggle)",
@@ -262,13 +262,13 @@
     "source": "https://github.com/EchoStretch/kstuff-toggle/releases",
     "source_direct": "https://github.com/EchoStretch/kstuff-toggle/releases/download/0.6/kstuff-toggle.zip",
     "extract_file": "kstuff-toggle-3.elf",
-    "description": "Boost homebrew game performance on your PS5 by disabling Kstuff after launching the game.",
-    "last_update": "3.00-13.20",
-    "version": "0.6",
-    "checksum": "0e87e92959791d9edf04c314802fcf18ccf37db74ae353d434a0062557f85093",
     "category": "Kernel",
     "min_fw": "3.00-13.20",
-    "release_date": "2026-05-07"
+    "description": "Boost homebrew game performance on your PS5 by disabling Kstuff after launching the game.",
+    "last_update": "3.00-13.20",
+    "release_date": "2026-05-07",
+    "version": "0.6 FW 3.00-13.20",
+    "checksum": "0e87e92959791d9edf04c314802fcf18ccf37db74ae353d434a0062557f85093"
   },
   {
     "name": "PS5 App Dumper",
@@ -276,12 +276,12 @@
     "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/PS5_App_Dumper_v1.10.elf",
     "source": "https://github.com/EchoStretch/ps5-app-dumper/releases",
     "source_direct": "https://github.com/EchoStretch/ps5-app-dumper/releases/download/v1.10/ps5-app-dumper.elf",
+    "category": "Utilities",
     "description": "A small utility to dump PS5 application files from the console's pfsmnt to a connected USB storage device.",
     "last_update": "2026-05-03",
+    "release_date": "2026-05-03",
     "version": "v1.10",
-    "checksum": "95382a9e37987d8eb931cbe5db618e77d293099ef4314e3288d9899bd5ac5c00",
-    "category": "Utilities",
-    "release_date": "2026-05-03"
+    "checksum": "95382a9e37987d8eb931cbe5db618e77d293099ef4314e3288d9899bd5ac5c00"
   },
   {
     "name": "BackPork",
@@ -289,13 +289,13 @@
     "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/BackPork_0.1.elf",
     "source": "https://github.com/BestPig/BackPork/releases",
     "source_direct": "https://github.com/BestPig/BackPork/releases/download/0.1/ps5-backpork.elf",
-    "description": "Lets you sideload system libraries into PS5 games",
-    "last_update": "3.00-12.00",
-    "version": "0.1",
-    "checksum": "d74e4cd119b2bb1fd423f2f5b1c9a7f096b3e588c753af1ab48b983d56216a52",
     "category": "Utilities",
     "min_fw": "3.00-12.00",
-    "release_date": "2026-04-30"
+    "description": "Lets you sideload system libraries into PS5 games",
+    "last_update": "3.00-12.00",
+    "release_date": "2026-04-30",
+    "version": "0.1 FW 3.00-12.00",
+    "checksum": "d74e4cd119b2bb1fd423f2f5b1c9a7f096b3e588c753af1ab48b983d56216a52"
   },
   {
     "name": "ftpsrv by Drakmor",
@@ -303,12 +303,12 @@
     "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/ftpsrv_by_Drakmor_1.15-ng-stable.elf",
     "source": "https://github.com/drakmor/ftpsrv/releases",
     "source_direct": "https://github.com/drakmor/ftpsrv/releases/download/1.15-ng-stable/ftpsrv-ps5.elf",
+    "category": "File Transfer",
     "description": "drakmor's fork of ftpsrv",
     "last_update": "2026-04-08",
+    "release_date": "2026-04-08",
     "version": "1.15-ng-stable",
-    "checksum": "913a443af847b6861ec11748e2640f62d1fc1027076f576aa0ddccab8507311f",
-    "category": "File Transfer",
-    "release_date": "2026-04-08"
+    "checksum": "913a443af847b6861ec11748e2640f62d1fc1027076f576aa0ddccab8507311f"
   },
   {
     "name": "KStuff",
@@ -316,13 +316,13 @@
     "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/KStuff_v1.6.7.elf",
     "source": "https://github.com/EchoStretch/kstuff/releases",
     "source_direct": "https://github.com/EchoStretch/kstuff/releases/download/v1.6.7/kstuff.elf",
-    "description": "Dynamically patches the PS5 kernel to bypass security",
-    "last_update": "3.00-10.01",
-    "version": "v1.6.7",
-    "checksum": "f1c1f4b2b6395644af04cbe9828aba58586acf7aacb9e01113cac92ce16e3569",
     "category": "Kernel",
     "min_fw": "3.00-10.01",
-    "release_date": "2026-01-04"
+    "description": "Dynamically patches the PS5 kernel to bypass security",
+    "last_update": "3.00-10.01",
+    "release_date": "2026-01-04",
+    "version": "v1.6.7 FW 3.00-10.01",
+    "checksum": "f1c1f4b2b6395644af04cbe9828aba58586acf7aacb9e01113cac92ce16e3569"
   },
   {
     "name": "etaHEN",
@@ -330,13 +330,13 @@
     "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/etaHEN_2.5B.bin",
     "source": "https://github.com/etaHEN/etaHEN/releases",
     "source_direct": "https://github.com/etaHEN/etaHEN/releases/download/2.5B/etaHEN-2.5B.bin",
-    "description": "AIO HEN payload",
-    "last_update": "3.00-10.01",
-    "version": "2.5B",
-    "checksum": "4845cac45095361b8983b14d6690622183b0dcfbf6d7fda16e161aa91ff0531e",
     "category": "HEN",
     "min_fw": "3.00-10.01",
-    "release_date": "2025-12-25"
+    "description": "AIO HEN payload",
+    "last_update": "3.00-10.01",
+    "release_date": "2025-12-25",
+    "version": "2.5B FW 3.00-10.01",
+    "checksum": "4845cac45095361b8983b14d6690622183b0dcfbf6d7fda16e161aa91ff0531e"
   },
   {
     "name": "OffAct",
@@ -345,12 +345,12 @@
     "source": "https://github.com/ps5-payload-dev/offact/releases",
     "source_direct": "https://github.com/ps5-payload-dev/offact/releases/download/v0.4.2/OffAct.zip",
     "extract_file": "OffAct.elf",
+    "category": "Utilities",
     "description": "PS5 offline account activation",
     "last_update": "2025-06-28",
+    "release_date": "2025-06-28",
     "version": "v0.4.2",
-    "checksum": "db250c1f3cf01b879d0d5e22e77b2e24c096ba1e2da20ead2ab758165ba5ab4f",
-    "category": "Utilities",
-    "release_date": "2025-06-28"
+    "checksum": "db250c1f3cf01b879d0d5e22e77b2e24c096ba1e2da20ead2ab758165ba5ab4f"
   },
   {
     "name": "LinkDev",
@@ -359,11 +359,11 @@
     "source": "https://github.com/ps5-payload-dev/linkdev/releases",
     "source_direct": "https://github.com/ps5-payload-dev/linkdev/releases/download/v0.4.2/LinkDev.zip",
     "extract_file": "LinkDev.elf",
+    "category": "Utilities",
     "description": "Link devices to jailbroken PS5s without access to the PSN network",
     "last_update": "2025-06-28",
+    "release_date": "2025-06-28",
     "version": "v0.4.2",
-    "checksum": "102576e340bb6a931f0c2295934c419f08985a4957cd2c67a2b6243f8f266f74",
-    "category": "Utilities",
-    "release_date": "2025-06-28"
+    "checksum": "102576e340bb6a931f0c2295934c419f08985a4957cd2c67a2b6243f8f266f74"
   }
 ]
