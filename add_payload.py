@@ -9,7 +9,7 @@ import zipfile
 import tempfile
 import shutil
 from datetime import datetime
-from update_payloads import update_readme
+from update_payloads import update_readme, sanitize_for_filename
 
 JSON_FILE = "payloads.json"
 PAYLOADS_DIR = "payloads"
@@ -80,6 +80,7 @@ def add_payload():
         return
         
     description = input("Description (optional): ").strip()
+    min_fw = input("Min PS5 FW version (optional, e.g. 4.51): ").strip() or None
     
     print(f"Fetching latest release info for {owner}/{repo} on {domain}...")
     try:
@@ -142,8 +143,7 @@ def add_payload():
     else:
         ext = selected_asset["name"].rsplit('.', 1)[1] if '.' in selected_asset["name"] else "bin"
         
-    # Format: repo_name_version.ext
-    filename = f"{repo}_{new_version}.{ext}"
+    filename = f"{sanitize_for_filename(repo)}_{sanitize_for_filename(new_version)}.{ext}"
     filepath = os.path.join(PAYLOADS_DIR, filename)
     
     extract_file = None
@@ -208,6 +208,8 @@ def add_payload():
         }
         if extract_file:
             new_item["extract_file"] = extract_file
+        if min_fw:
+            new_item["min_fw"] = min_fw
         
         payloads.append(new_item)
         payloads.sort(key=lambda x: x.get("last_update", ""), reverse=True)

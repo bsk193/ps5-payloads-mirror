@@ -11,6 +11,11 @@ import shutil
 from datetime import datetime
 
 JSON_FILE = "payloads.json"
+
+def sanitize_for_filename(s):
+    s = re.sub(r'[\s.()+]+', '_', s)
+    s = re.sub(r'_+', '_', s)
+    return s.strip('_')
 PAYLOADS_DIR = "payloads"
 BASE_URL = "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror"
 
@@ -80,7 +85,7 @@ def calculate_checksum(filepath):
         return None
 
 def reorder_item(item):
-    order = ["name", "filename", "url", "source", "source_direct", "asset_pattern", "extract_file", "description", "last_update", "version", "checksum"]
+    order = ["name", "filename", "url", "source", "source_direct", "asset_pattern", "extract_file", "description", "min_fw", "last_update", "version", "checksum"]
     new_item = {}
     for key in order:
         if key in item:
@@ -99,22 +104,23 @@ def update_readme():
         return
 
     table_rows = [
-        "| Payload | Version | Description | Last Updated | Source | Download |",
-        "| --- | --- | --- | --- | --- | --- |"
+        "| Payload | Version | Min FW | Description | Last Updated | Source | Download |",
+        "| --- | --- | --- | --- | --- | --- | --- |"
     ]
-    
+
     for item in payloads:
         name = item.get("name", "Unknown")
         version = item.get("version", "Unknown")
         description = item.get("description", "")
+        min_fw = item.get("min_fw") or "—"
         last_update = item.get("last_update", "Unknown")
         source = item.get("source", "#")
         url = item.get("url", "#")
-        
+
         if not description:
             description = "No description provided."
-            
-        table_rows.append(f"| **{name}** | `{version}` | {description} | `{last_update}` | [Source]({source}) | [Download]({url}) |")
+
+        table_rows.append(f"| **{name}** | `{version}` | {min_fw} | {description} | `{last_update}` | [Source]({source}) | [Download]({url}) |")
         
     table_content = "\n".join(table_rows)
     readme_path = "README.md"
@@ -295,7 +301,7 @@ def update_payloads():
             else:
                 ext = original_filename.rsplit('.', 1)[1] if '.' in original_filename else "bin"
             
-            new_filename = f"{final_name}_{new_version}.{ext}"
+            new_filename = f"{sanitize_for_filename(final_name)}_{sanitize_for_filename(new_version)}.{ext}"
             
             filepath = os.path.join(PAYLOADS_DIR, new_filename)
             needs_download = (

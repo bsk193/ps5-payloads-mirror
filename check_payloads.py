@@ -1,6 +1,6 @@
 import json
 import os
-from update_payloads import update_readme
+from update_payloads import update_readme, sanitize_for_filename
 
 JSON_FILE = "payloads.json"
 BASE_URL = "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror"
@@ -33,17 +33,25 @@ def check_payloads():
         if src and len(source_groups.get(src, [])) > 1 and not item.get("asset_pattern"):
             issues.append(f"[{name}] shares source with another entry but has no asset_pattern")
 
+        # Auto-fix: normalize filename (spaces/dots/special chars -> underscores)
+        if item.get("filename") and item.get("version"):
+            ext = item["filename"].rsplit(".", 1)[1] if "." in item["filename"] else "elf"
+            expected = f"{sanitize_for_filename(name)}_{sanitize_for_filename(item['version'])}.{ext}"
+            if item["filename"] != expected:
+                item["filename"] = expected
+                fixes.append(f"[{name}] filename normalized to {expected}")
+
         # Auto-fix: url should always match BASE_URL/filename
         if item.get("filename"):
-            expected = f"{BASE_URL}/{item['filename']}"
-            if item.get("url") != expected:
-                item["url"] = expected
-                fixes.append(f"[{name}] url corrected to {expected}")
+            expected_url = f"{BASE_URL}/{item['filename']}"
+            if item.get("url") != expected_url:
+                item["url"] = expected_url
+                fixes.append(f"[{name}] url updated to match normalized filename")
 
     if fixes:
         with open(JSON_FILE, "w") as f:
             json.dump(payloads, f, indent=2)
-        print(f"Auto-fixed {len(fixes)} url(s):")
+        print(f"Auto-fixed {len(fixes)} issue(s):")
         for fix in fixes:
             print(f"  {fix}")
         print()
