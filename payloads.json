@@ -6,11 +6,12 @@
     "source": "https://github.com/ps5-linux/ps5-linux-loader/releases",
     "source_direct": "https://github.com/ps5-linux/ps5-linux-loader/releases/download/v2.3/ps5-linux-loader.elf",
     "description": "Linux payload implementing HV exploits to run a custom bootloader",
-    "last_update": "2026-07-01",
+    "last_update": "3.00-7.61",
     "version": "v2.3",
     "checksum": "0723b5d5e09120861023e91780d9ec345a3aa2f32c8a17fdfb3a60a9e934e8a5",
     "category": "Linux",
-    "min_fw": "3.00-7.61"
+    "min_fw": "3.00-7.61",
+    "release_date": "2026-07-01"
   },
   {
     "name": "KStuff (lite)",
@@ -19,11 +20,12 @@
     "source": "https://github.com/EchoStretch/kstuff-lite/releases",
     "source_direct": "https://github.com/EchoStretch/kstuff-lite/releases/download/v1.08/kstuff.elf",
     "description": "Lite version of kstuff",
-    "last_update": "2026-06-28",
+    "last_update": "3.00-12.70",
     "version": "v1.08",
     "checksum": "17294fb95736b9871457c255c0fa2ce2fc2c0401f5cc5b26abd077393b018361",
     "category": "Kernel",
-    "min_fw": "3.00-12.70"
+    "min_fw": "3.00-12.70",
+    "release_date": "2026-06-28"
   },
   {
     "name": "ShadowMount+",
@@ -33,11 +35,12 @@
     "source_direct": "https://github.com/drakmor/ShadowMountPlus/releases/download/1.6beta16/ShadowMountPlus_1.6beta16.zip",
     "extract_file": "shadowmountplus.elf",
     "description": "A fully automated, background 'Auto-Mounter' payload for Jailbroken PlayStation 5 consoles.",
-    "last_update": "2026-06-28",
+    "last_update": "3.00-12.70",
     "version": "1.6beta16",
     "checksum": "a35246fb3bb6042b25653b51cdcbc33254b40339342bf1d2dd0d2eceee2ca526",
     "category": "Storage",
-    "min_fw": "3.00-12.70"
+    "min_fw": "3.00-12.70",
+    "release_date": "2026-06-28"
   },
   {
     "name": "websrv",
@@ -49,7 +52,8 @@
     "last_update": "2026-06-28",
     "version": "v0.33",
     "checksum": "4676a40ac4c7ca1adeb04980efa48dd33a8961446b42e6a12abfcbe96090c8ac",
-    "category": "Network"
+    "category": "Network",
+    "release_date": "2026-06-28"
   },
   {
     "name": "shsrv",
@@ -61,7 +65,8 @@
     "last_update": "2026-06-28",
     "version": "v0.19",
     "checksum": "797827b50a93dbf327abdca45063d76ea24b17e561d927f397a0b73cadb2e2bd",
-    "category": "Network"
+    "category": "Network",
+    "release_date": "2026-06-28"
   },
   {
     "name": "PS5Upload",
@@ -74,7 +79,8 @@
     "last_update": "2026-06-28",
     "version": "v3.3.24",
     "checksum": "0669701436835059cf5ddefbc7a739268fcb621337b59922d1670d36a5599896",
-    "category": "File Transfer"
+    "category": "File Transfer",
+    "release_date": "2026-06-28"
   },
   {
     "name": "Pegasus-DL",
@@ -86,7 +92,8 @@
     "last_update": "2026-06-24",
     "version": "v1.7.0",
     "checksum": "cb2a4b3c248323f2432ce118cb1bf4975146035239ce9b571a9bdb51b3fee226",
-    "category": "Package Manager"
+    "category": "Package Manager",
+    "release_date": "2026-06-24"
   },
   {
     "name": "ps5debug-NG",
@@ -98,7 +105,8 @@
     "last_update": "2026-06-21",
     "version": "1.3.0",
     "checksum": "8f75fb90b45d7cc4d59147e3323577d7264cf572c78a27f76722202f492ad16a",
-    "category": "Debug"
+    "category": "Debug",
+    "release_date": "2026-06-21"
   },
   {
     "name": "BFpilot",
@@ -111,7 +119,8 @@
     "last_update": "2026-06-19",
     "version": "v0.3",
     "checksum": "7aa63351a21bf7a663e95dee78409f9cd06fac29fc329fae902652399a3ffe46",
-    "category": "File Manager"
+    "category": "File Manager",
+    "release_date": "2026-06-19"
   },
   {
     "name": "BFpilot (installer)",
@@ -124,7 +133,8 @@
     "last_update": "2026-06-19",
     "version": "v0.3",
     "checksum": "46645d64c4e0f087ceb3339d4a70b359c03f5360f565a22109c292cf0a27a8d9",
-    "category": "File Manager"
+    "category": "File Manager",
+    "release_date": "2026-06-19"
   },
   {
     "name": "zftpd",
@@ -137,7 +147,8 @@
     "last_update": "2026-06-14",
     "version": "v1.5.0",
     "checksum": "6cf6a738112fc339619ebe772690fa611f60ecdb20164a0e3f49e137277bc42b",
-    "category": "File Transfer"
+    "category": "File Transfer",
+    "release_date": "2026-06-14"
   },
   {
     "name": "Garlic Save Manager",
@@ -149,7 +160,8 @@
     "last_update": "2026-06-11",
     "version": "v1.10",
     "checksum": "b82bf7aa83943c957f56c1b65c0739057d6b21f5b417215db17c9418fc265a27",
-    "category": "Save Manager"
+    "category": "Save Manager",
+    "release_date": "2026-06-11"
   },
   {
     "name": "Payload Manager",
@@ -161,7 +173,8 @@
     "last_update": "2026-06-06",
     "version": "v0.3.1",
     "checksum": "518740adbacccb9094fadb07dd424c53ee290f38306449ccc9d6957fdf813c0b",
-    "category": "Utilities"
+    "category": "Utilities",
+    "release_date": "2026-06-06"
   },
   {
     "name": "nanoDNS",
@@ -173,7 +186,8 @@
     "last_update": "2026-06-03",
     "version": "0.3",
     "checksum": "ce1c8b31036ab948da65b362a4b6f249ffca8a555fc5bc4b051ec65d041bc944",
-    "category": "Network"
+    "category": "Network",
+    "release_date": "2026-06-03"
   },
   {
     "name": "Lapy-JB-Daemon",
@@ -182,11 +196,12 @@
     "source": "https://github.com/itsPLK/PS5-Lapy-JB-Daemon/releases",
     "source_direct": "https://github.com/itsPLK/PS5-Lapy-JB-Daemon/releases/download/v1.2/lapy_jb_daemon-v1.2.elf",
     "description": "Standalone homebrew jailbreak daemon for PS5. Mimics etaHEN's jailbreak-on-demand API.",
-    "last_update": "2026-06-01",
+    "last_update": "3.00-12.00",
     "version": "v1.2",
     "checksum": "13559b858fc33cc7fa3dc89e10dccf139070d99ee5d378dd75c969293700799e",
     "category": "HEN",
-    "min_fw": "3.00-12.00"
+    "min_fw": "3.00-12.00",
+    "release_date": "2026-06-01"
   },
   {
     "name": "KStuff (lite) by Drakmor",
@@ -198,7 +213,8 @@
     "last_update": "2026-05-31",
     "version": "1.2-dr-test1",
     "checksum": "9c1b242eaed3704ef18be45d001a2c4ebf2d9222cfe3cbb0f0c3db33309abac9",
-    "category": "Kernel"
+    "category": "Kernel",
+    "release_date": "2026-05-31"
   },
   {
     "name": "ftpsrv",
@@ -210,7 +226,8 @@
     "last_update": "2026-05-12",
     "version": "v0.20",
     "checksum": "8f305a959fb9d70fd8d52ba88409e0d5a1632e83d4ecdd38646a0a33e54089da",
-    "category": "File Transfer"
+    "category": "File Transfer",
+    "release_date": "2026-05-12"
   },
   {
     "name": "klogsrv",
@@ -222,7 +239,8 @@
     "last_update": "2026-05-12",
     "version": "v0.8",
     "checksum": "f6eb1b415ecf3340b89a56a0cb04ba5c714430085851ada13a98012b63a5a4cf",
-    "category": "Debug"
+    "category": "Debug",
+    "release_date": "2026-05-12"
   },
   {
     "name": "ELF Loader",
@@ -234,7 +252,8 @@
     "last_update": "2026-05-12",
     "version": "v0.23",
     "checksum": "092d16ee0ede0c494947efd38d1a17bbd7cc4b022d3858ea898833c188c703e8",
-    "category": "Utilities"
+    "category": "Utilities",
+    "release_date": "2026-05-12"
   },
   {
     "name": "KStuff (toggle)",
@@ -244,11 +263,12 @@
     "source_direct": "https://github.com/EchoStretch/kstuff-toggle/releases/download/0.6/kstuff-toggle.zip",
     "extract_file": "kstuff-toggle-3.elf",
     "description": "Boost homebrew game performance on your PS5 by disabling Kstuff after launching the game.",
-    "last_update": "2026-05-07",
+    "last_update": "3.00-13.20",
     "version": "0.6",
     "checksum": "0e87e92959791d9edf04c314802fcf18ccf37db74ae353d434a0062557f85093",
     "category": "Kernel",
-    "min_fw": "3.00-13.20"
+    "min_fw": "3.00-13.20",
+    "release_date": "2026-05-07"
   },
   {
     "name": "PS5 App Dumper",
@@ -260,7 +280,8 @@
     "last_update": "2026-05-03",
     "version": "v1.10",
     "checksum": "95382a9e37987d8eb931cbe5db618e77d293099ef4314e3288d9899bd5ac5c00",
-    "category": "Utilities"
+    "category": "Utilities",
+    "release_date": "2026-05-03"
   },
   {
     "name": "BackPork",
@@ -269,11 +290,12 @@
     "source": "https://github.com/BestPig/BackPork/releases",
     "source_direct": "https://github.com/BestPig/BackPork/releases/download/0.1/ps5-backpork.elf",
     "description": "Lets you sideload system libraries into PS5 games",
-    "last_update": "2026-04-30",
+    "last_update": "3.00-12.00",
     "version": "0.1",
     "checksum": "d74e4cd119b2bb1fd423f2f5b1c9a7f096b3e588c753af1ab48b983d56216a52",
     "category": "Utilities",
-    "min_fw": "3.00-12.00"
+    "min_fw": "3.00-12.00",
+    "release_date": "2026-04-30"
   },
   {
     "name": "ftpsrv by Drakmor",
@@ -285,7 +307,8 @@
     "last_update": "2026-04-08",
     "version": "1.15-ng-stable",
     "checksum": "913a443af847b6861ec11748e2640f62d1fc1027076f576aa0ddccab8507311f",
-    "category": "File Transfer"
+    "category": "File Transfer",
+    "release_date": "2026-04-08"
   },
   {
     "name": "KStuff",
@@ -294,11 +317,12 @@
     "source": "https://github.com/EchoStretch/kstuff/releases",
     "source_direct": "https://github.com/EchoStretch/kstuff/releases/download/v1.6.7/kstuff.elf",
     "description": "Dynamically patches the PS5 kernel to bypass security",
-    "last_update": "2026-01-04",
+    "last_update": "3.00-10.01",
     "version": "v1.6.7",
     "checksum": "f1c1f4b2b6395644af04cbe9828aba58586acf7aacb9e01113cac92ce16e3569",
     "category": "Kernel",
-    "min_fw": "3.00-10.01"
+    "min_fw": "3.00-10.01",
+    "release_date": "2026-01-04"
   },
   {
     "name": "etaHEN",
@@ -307,11 +331,12 @@
     "source": "https://github.com/etaHEN/etaHEN/releases",
     "source_direct": "https://github.com/etaHEN/etaHEN/releases/download/2.5B/etaHEN-2.5B.bin",
     "description": "AIO HEN payload",
-    "last_update": "2025-12-25",
+    "last_update": "3.00-10.01",
     "version": "2.5B",
     "checksum": "4845cac45095361b8983b14d6690622183b0dcfbf6d7fda16e161aa91ff0531e",
     "category": "HEN",
-    "min_fw": "3.00-10.01"
+    "min_fw": "3.00-10.01",
+    "release_date": "2025-12-25"
   },
   {
     "name": "OffAct",
@@ -324,7 +349,8 @@
     "last_update": "2025-06-28",
     "version": "v0.4.2",
     "checksum": "db250c1f3cf01b879d0d5e22e77b2e24c096ba1e2da20ead2ab758165ba5ab4f",
-    "category": "Utilities"
+    "category": "Utilities",
+    "release_date": "2025-06-28"
   },
   {
     "name": "LinkDev",
@@ -337,6 +363,7 @@
     "last_update": "2025-06-28",
     "version": "v0.4.2",
     "checksum": "102576e340bb6a931f0c2295934c419f08985a4957cd2c67a2b6243f8f266f74",
-    "category": "Utilities"
+    "category": "Utilities",
+    "release_date": "2025-06-28"
   }
 ]

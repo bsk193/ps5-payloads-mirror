@@ -92,7 +92,7 @@ def calculate_checksum(filepath):
         return None
 
 def reorder_item(item):
-    order = ["name", "filename", "url", "source", "source_direct", "asset_pattern", "extract_file", "category", "min_fw", "description", "last_update", "version", "checksum"]
+    order = ["name", "filename", "url", "source", "source_direct", "asset_pattern", "extract_file", "category", "min_fw", "description", "last_update", "release_date", "version", "checksum"]
     new_item = {}
     for key in order:
         if key in item:
@@ -386,7 +386,8 @@ def update_payloads():
                     item["filename"] = new_filename
                     item["url"] = f"{BASE_URL}/{new_filename}"
                     item["source_direct"] = gh_url
-                    item["last_update"] = new_date
+                    item["release_date"] = new_date
+                    item["last_update"] = item.get("min_fw") or new_date
                     item["checksum"] = calculate_checksum(filepath)
                     if extract_file and is_zip:
                         item["extract_file"] = extract_file
@@ -395,8 +396,16 @@ def update_payloads():
                     print(f"  Skipping update due to download failure.")
             else:
                 print(f"  Already up to date ({new_version})")
+                changed = False
                 if item.get("version") != version_display:
                     item["version"] = version_display
+                    changed = True
+                expected_last_update = item.get("min_fw") or new_date
+                if item.get("last_update") != expected_last_update:
+                    item["release_date"] = new_date
+                    item["last_update"] = expected_last_update
+                    changed = True
+                if changed:
                     updated = True
         else:
             print(f"  No suitable asset found for {source}")
@@ -405,7 +414,7 @@ def update_payloads():
         if item.get("filename"):
             item["url"] = f"{BASE_URL}/{item['filename']}"
             
-    payloads.sort(key=lambda x: x.get("last_update", ""), reverse=True)
+    payloads.sort(key=lambda x: x.get("release_date") or x.get("last_update", ""), reverse=True)
     payloads = [reorder_item(p) for p in payloads]
     
     with open(JSON_FILE, "w") as f:
