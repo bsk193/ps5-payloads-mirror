@@ -85,7 +85,7 @@ def calculate_checksum(filepath):
         return None
 
 def reorder_item(item):
-    order = ["name", "filename", "url", "source", "source_direct", "asset_pattern", "extract_file", "category", "description", "last_update", "version", "checksum"]
+    order = ["name", "filename", "url", "source", "source_direct", "asset_pattern", "extract_file", "category", "min_fw", "description", "last_update", "version", "checksum"]
     new_item = {}
     for key in order:
         if key in item:
@@ -304,10 +304,17 @@ def update_payloads():
                 ext = original_filename.rsplit('.', 1)[1] if '.' in original_filename else "bin"
             
             new_filename = f"{sanitize_for_filename(final_name)}.{ext}"
-            
+
+            min_fw = item.get("min_fw")
+            version_display = f"{new_version} FW {min_fw}" if min_fw else new_version
+
+            # Strip any existing FW suffix from stored version for comparison
+            stored_version = item.get("version", "")
+            stored_tag = stored_version.split(" FW ")[0] if " FW " in stored_version else stored_version
+
             filepath = os.path.join(PAYLOADS_DIR, new_filename)
             needs_download = (
-                item.get("version") != new_version or 
+                stored_tag != new_version or
                 item.get("filename") != new_filename or
                 new_filename not in mirror_assets
             )
@@ -368,7 +375,7 @@ def update_payloads():
 
                 if success:
                     item["name"] = final_name
-                    item["version"] = new_version
+                    item["version"] = version_display
                     item["filename"] = new_filename
                     item["url"] = f"{BASE_URL}/{new_filename}"
                     item["source_direct"] = gh_url
@@ -381,6 +388,9 @@ def update_payloads():
                     print(f"  Skipping update due to download failure.")
             else:
                 print(f"  Already up to date ({new_version})")
+                if item.get("version") != version_display:
+                    item["version"] = version_display
+                    updated = True
         else:
             print(f"  No suitable asset found for {source}")
                 

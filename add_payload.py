@@ -55,7 +55,7 @@ def calculate_checksum(filepath):
         return None
 
 def reorder_item(item):
-    order = ["name", "filename", "url", "source", "source_direct", "asset_pattern", "extract_file", "description", "last_update", "version", "checksum"]
+    order = ["name", "filename", "url", "source", "source_direct", "asset_pattern", "extract_file", "category", "min_fw", "description", "last_update", "version", "checksum"]
     new_item = {}
     for key in order:
         if key in item:
@@ -81,6 +81,7 @@ def add_payload():
         
     description = input("Description (optional): ").strip()
     category = input("Category (e.g. HEN, Kernel, File Transfer, Debug, Utilities): ").strip() or "Uncategorized"
+    min_fw = input("Minimum firmware version (e.g. 4.51, leave blank if unknown): ").strip() or None
     
     print(f"Fetching latest release info for {owner}/{repo} on {domain}...")
     try:
@@ -209,7 +210,9 @@ def add_payload():
         if extract_file:
             new_item["extract_file"] = extract_file
         new_item["category"] = category
-        
+        if min_fw:
+            new_item["min_fw"] = min_fw
+
         payloads.append(new_item)
         payloads.sort(key=lambda x: x.get("last_update", ""), reverse=True)
         payloads = [reorder_item(p) for p in payloads]
