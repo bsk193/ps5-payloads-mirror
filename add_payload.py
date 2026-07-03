@@ -80,7 +80,7 @@ def add_payload():
         return
         
     description = input("Description (optional): ").strip()
-    min_fw = input("Min PS5 FW version (optional, e.g. 4.51): ").strip() or None
+    category = input("Category (e.g. HEN, Kernel, File Transfer, Debug, Utilities): ").strip() or "Uncategorized"
     
     print(f"Fetching latest release info for {owner}/{repo} on {domain}...")
     try:
@@ -208,8 +208,7 @@ def add_payload():
         }
         if extract_file:
             new_item["extract_file"] = extract_file
-        if min_fw:
-            new_item["min_fw"] = min_fw
+        new_item["category"] = category
         
         payloads.append(new_item)
         payloads.sort(key=lambda x: x.get("last_update", ""), reverse=True)

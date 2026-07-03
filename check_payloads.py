@@ -33,6 +33,10 @@ def check_payloads():
         if src and len(source_groups.get(src, [])) > 1 and not item.get("asset_pattern"):
             issues.append(f"[{name}] shares source with another entry but has no asset_pattern")
 
+        # Warn about missing category
+        if not item.get("category"):
+            issues.append(f"[{name}] missing category (will show as Uncategorized in pldmgr)")
+
         # Auto-fix: normalize filename (spaces/dots/special chars -> underscores)
         if item.get("filename") and item.get("version"):
             ext = item["filename"].rsplit(".", 1)[1] if "." in item["filename"] else "elf"

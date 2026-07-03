@@ -85,7 +85,7 @@ def calculate_checksum(filepath):
         return None
 
 def reorder_item(item):
-    order = ["name", "filename", "url", "source", "source_direct", "asset_pattern", "extract_file", "description", "min_fw", "last_update", "version", "checksum"]
+    order = ["name", "filename", "url", "source", "source_direct", "asset_pattern", "extract_file", "category", "description", "last_update", "version", "checksum"]
     new_item = {}
     for key in order:
         if key in item:
@@ -104,15 +104,15 @@ def update_readme():
         return
 
     table_rows = [
-        "| Payload | Version | Min FW | Description | Last Updated | Source | Download |",
+        "| Payload | Version | Category | Description | Last Updated | Source | Download |",
         "| --- | --- | --- | --- | --- | --- | --- |"
     ]
 
     for item in payloads:
         name = item.get("name", "Unknown")
         version = item.get("version", "Unknown")
+        category = item.get("category") or "Uncategorized"
         description = item.get("description", "")
-        min_fw = item.get("min_fw") or "—"
         last_update = item.get("last_update", "Unknown")
         source = item.get("source", "#")
         url = item.get("url", "#")
@@ -120,7 +120,7 @@ def update_readme():
         if not description:
             description = "No description provided."
 
-        table_rows.append(f"| **{name}** | `{version}` | {min_fw} | {description} | `{last_update}` | [Source]({source}) | [Download]({url}) |")
+        table_rows.append(f"| **{name}** | `{version}` | {category} | {description} | `{last_update}` | [Source]({source}) | [Download]({url}) |")
         
     table_content = "\n".join(table_rows)
     readme_path = "README.md"
