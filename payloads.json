@@ -1,5 +1,33 @@
 [
   {
+    "name": "BFpilot",
+    "filename": "BFpilot_v0.3.5-test10-clean.elf",
+    "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/BFpilot_v0.3.5-test10-clean.elf",
+    "source": "https://github.com/ItsBlurf/BFpilot/releases",
+    "source_direct": "https://github.com/ItsBlurf/BFpilot/releases/download/v0.3.5-test10-clean/bfpilot.elf",
+    "asset_pattern": "^bfpilot\\.elf$",
+    "category": "File Manager",
+    "description": "Lightweight PS5 file manager that is browser based",
+    "last_update": "2026-07-05",
+    "release_date": "2026-07-05",
+    "version": "v0.3.5-test10-clean",
+    "checksum": "b3bfbbe31a4b42681a1b1739259112da57774eee6375a487810cc4a117e14c7d"
+  },
+  {
+    "name": "BFpilot (installer)",
+    "filename": "BFpilot_installer_v0.3.5-test10-clean.elf",
+    "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/BFpilot_installer_v0.3.5-test10-clean.elf",
+    "source": "https://github.com/ItsBlurf/BFpilot/releases",
+    "source_direct": "https://github.com/ItsBlurf/BFpilot/releases/download/v0.3.5-test10-clean/bfpilot-launcher-installer.elf",
+    "asset_pattern": "bfpilot-launcher-installer",
+    "category": "File Manager",
+    "description": "Homescreen tile creator/installer for BFpilot",
+    "last_update": "2026-07-05",
+    "release_date": "2026-07-05",
+    "version": "v0.3.5-test10-clean",
+    "checksum": "78c208099cf5b0a1db20893301b7d894e5c5d7afa587656ca46c9928be9b18f6"
+  },
+  {
     "name": "KStuff (lite)",
     "filename": "KStuff_lite_v1.09.elf",
     "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/KStuff_lite_v1.09.elf",
@@ -107,34 +135,6 @@
     "release_date": "2026-06-21",
     "version": "1.3.0",
     "checksum": "8f75fb90b45d7cc4d59147e3323577d7264cf572c78a27f76722202f492ad16a"
-  },
-  {
-    "name": "BFpilot",
-    "filename": "BFpilot_v0.3.elf",
-    "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/BFpilot_v0.3.elf",
-    "source": "https://github.com/ItsBlurf/BFpilot/releases",
-    "source_direct": "https://github.com/ItsBlurf/BFpilot/releases/download/v0.3/bfpilot.elf",
-    "asset_pattern": "^bfpilot\\.elf$",
-    "category": "File Manager",
-    "description": "Lightweight PS5 file manager that is browser based",
-    "last_update": "2026-06-19",
-    "release_date": "2026-06-19",
-    "version": "v0.3",
-    "checksum": "7aa63351a21bf7a663e95dee78409f9cd06fac29fc329fae902652399a3ffe46"
-  },
-  {
-    "name": "BFpilot (installer)",
-    "filename": "BFpilot_installer_v0.3.elf",
-    "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/BFpilot_installer_v0.3.elf",
-    "source": "https://github.com/ItsBlurf/BFpilot/releases",
-    "source_direct": "https://github.com/ItsBlurf/BFpilot/releases/download/v0.3/bfpilot-launcher-installer.elf",
-    "asset_pattern": "bfpilot-launcher-installer",
-    "category": "File Manager",
-    "description": "Homescreen tile creator/installer for BFpilot",
-    "last_update": "2026-06-19",
-    "release_date": "2026-06-19",
-    "version": "v0.3",
-    "checksum": "46645d64c4e0f087ceb3339d4a70b359c03f5360f565a22109c292cf0a27a8d9"
   },
   {
     "name": "zftpd",
