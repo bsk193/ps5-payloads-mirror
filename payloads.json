@@ -1,5 +1,33 @@
 [
   {
+    "name": "PS5 Linux Loader",
+    "filename": "PS5_Linux_Loader_v2.4.elf",
+    "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/PS5_Linux_Loader_v2.4.elf",
+    "source": "https://github.com/ps5-linux/ps5-linux-loader/releases",
+    "source_direct": "https://github.com/ps5-linux/ps5-linux-loader/releases/download/v2.4/ps5-linux-loader.elf",
+    "category": "Linux",
+    "min_fw": "3.00-7.61",
+    "description": "Linux payload implementing HV exploits to run a custom bootloader",
+    "last_update": "3.00-7.61",
+    "release_date": "2026-07-06",
+    "version": "v2.4 FW 3.00-7.61",
+    "checksum": "51382795b486f7c5a3681648d457d129088311fc3f9601aeaff78dc72fafcf1d"
+  },
+  {
+    "name": "PS5Upload",
+    "filename": "PS5Upload_v3.3.26.elf",
+    "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/PS5Upload_v3.3.26.elf",
+    "source": "https://github.com/phantomptr/ps5upload/releases",
+    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v3.3.26/ps5upload-3.3.26.elf",
+    "asset_pattern": "ps5upload.*\\.elf",
+    "category": "File Transfer",
+    "description": "PS5 Upload is a tool designed to get your apps and homebrew onto your console without the headache of slow transfers.",
+    "last_update": "2026-07-06",
+    "release_date": "2026-07-06",
+    "version": "v3.3.26",
+    "checksum": "beb9e376f74a392d51496045231d51ad9744f812bce09b3906661eb3e7555013"
+  },
+  {
     "name": "BFpilot",
     "filename": "BFpilot_v0.3.5-test10-clean.elf",
     "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/BFpilot_v0.3.5-test10-clean.elf",
@@ -42,20 +70,6 @@
     "checksum": "ec5212794dc6e44ee8e70fd0549abec6d3dac8c3e03ddbeafd9f869ffe97d4e8"
   },
   {
-    "name": "PS5 Linux Loader",
-    "filename": "PS5_Linux_Loader_v2.3.elf",
-    "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/PS5_Linux_Loader_v2.3.elf",
-    "source": "https://github.com/ps5-linux/ps5-linux-loader/releases",
-    "source_direct": "https://github.com/ps5-linux/ps5-linux-loader/releases/download/v2.3/ps5-linux-loader.elf",
-    "category": "Linux",
-    "min_fw": "3.00-7.61",
-    "description": "Linux payload implementing HV exploits to run a custom bootloader",
-    "last_update": "3.00-7.61",
-    "release_date": "2026-07-01",
-    "version": "v2.3 FW 3.00-7.61",
-    "checksum": "0723b5d5e09120861023e91780d9ec345a3aa2f32c8a17fdfb3a60a9e934e8a5"
-  },
-  {
     "name": "ShadowMountPlus",
     "filename": "ShadowMountPlus_1.6beta16.elf",
     "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/ShadowMountPlus_1.6beta16.elf",
@@ -95,20 +109,6 @@
     "release_date": "2026-06-28",
     "version": "v0.19",
     "checksum": "797827b50a93dbf327abdca45063d76ea24b17e561d927f397a0b73cadb2e2bd"
-  },
-  {
-    "name": "PS5Upload",
-    "filename": "PS5Upload_v3.3.24.elf",
-    "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/PS5Upload_v3.3.24.elf",
-    "source": "https://github.com/phantomptr/ps5upload/releases",
-    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v3.3.24/ps5upload-3.3.24.elf",
-    "asset_pattern": "ps5upload.*\\.elf",
-    "category": "File Transfer",
-    "description": "PS5 Upload is a tool designed to get your apps and homebrew onto your console without the headache of slow transfers.",
-    "last_update": "2026-06-28",
-    "release_date": "2026-06-28",
-    "version": "v3.3.24",
-    "checksum": "0669701436835059cf5ddefbc7a739268fcb621337b59922d1670d36a5599896"
   },
   {
     "name": "Pegasus-DL",
