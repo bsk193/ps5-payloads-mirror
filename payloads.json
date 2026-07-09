@@ -29,7 +29,7 @@
     "release_date": "2026-05-07"
   },
   {
-    "name": "KStuff (lite)",
+    "name": "KStuff Lite",
     "filename": "KStuff_lite_v1.09.elf",
     "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/KStuff_lite_v1.09.elf",
     "source": "https://github.com/EchoStretch/kstuff-lite/releases",
@@ -58,7 +58,7 @@
     "release_date": "2026-06-28"
   },
   {
-    "name": "Lapy-JB-Daemon",
+    "name": "Lapy JB Daemon",
     "filename": "Lapy-JB-Daemon_v1.2.elf",
     "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/Lapy-JB-Daemon_v1.2.elf",
     "source": "https://github.com/itsPLK/PS5-Lapy-JB-Daemon/releases",
@@ -156,7 +156,7 @@
     "release_date": "2026-07-05"
   },
   {
-    "name": "BFpilot (installer)",
+    "name": "BFpilot Installer",
     "filename": "BFpilot_installer_v0.3.5-test10-clean.elf",
     "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/BFpilot_installer_v0.3.5-test10-clean.elf",
     "source": "https://github.com/ItsBlurf/BFpilot/releases",
@@ -196,7 +196,7 @@
     "release_date": "2026-06-28"
   },
   {
-    "name": "Pegasus-DL",
+    "name": "PegasusDL",
     "filename": "Pegasus-DL_v1.7.0.elf",
     "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/Pegasus-DL_v1.7.0.elf",
     "source": "https://github.com/pegasus-ps5/pegasus-dl/releases",
@@ -209,7 +209,7 @@
     "release_date": "2026-06-24"
   },
   {
-    "name": "ps5debug-NG",
+    "name": "PS5DebugNG",
     "filename": "ps5debug-NG_1.3.0.elf",
     "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/ps5debug-NG_1.3.0.elf",
     "source": "https://github.com/OpenSourcereR-dev/ps5debug-NG/releases",
@@ -275,7 +275,7 @@
     "release_date": "2026-06-03"
   },
   {
-    "name": "KStuff (lite) by Drakmor",
+    "name": "KStuff Lite drakmor",
     "filename": "KStuff_lite_by_Drakmor_1.2-dr-test1.elf",
     "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/KStuff_lite_by_Drakmor_1.2-dr-test1.elf",
     "source": "https://github.com/drakmor/kstuff-lite/releases",
@@ -340,7 +340,7 @@
     "release_date": "2026-05-03"
   },
   {
-    "name": "ftpsrv by Drakmor",
+    "name": "ftpsrv drakmor",
     "filename": "ftpsrv_by_Drakmor_1.15-ng-stable.elf",
     "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/ftpsrv_by_Drakmor_1.15-ng-stable.elf",
     "source": "https://github.com/drakmor/ftpsrv/releases",
@@ -353,7 +353,7 @@
     "release_date": "2026-04-08"
   },
   {
-    "name": "np-fake-signin",
+    "name": "NP Fake Signin",
     "filename": "np-fake-signin_1.1.elf",
     "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/np-fake-signin_1.1.elf",
     "source": "https://github.com/earthonion/np-fake-signin/releases",
