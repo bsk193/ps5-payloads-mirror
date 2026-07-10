@@ -14,6 +14,20 @@
     "checksum": "ee8f47e4d6a5fd85cef113341aa1eb74d68e373a58fcb1fb5a9274acd2b83bd2"
   },
   {
+    "name": "PS5Upload",
+    "filename": "PS5Upload_v3.4.0.elf",
+    "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/PS5Upload_v3.4.0.elf",
+    "source": "https://github.com/phantomptr/ps5upload/releases",
+    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v3.4.0/ps5upload-3.4.0.elf",
+    "asset_pattern": "ps5upload.*\\.elf",
+    "category": "File Transfer",
+    "description": "PS5 Upload is a tool designed to get your apps and homebrew onto your console without the headache of slow transfers.",
+    "last_update": "2026-07-09",
+    "release_date": "2026-07-09",
+    "version": "v3.4.0",
+    "checksum": "a3e48a38e0591a303b539a3dc0fe512b292135ff6ba3c2e7315e28c3ce3f8234"
+  },
+  {
     "name": "PS5 Linux Loader",
     "filename": "PS5_Linux_Loader_v2.4.elf",
     "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/PS5_Linux_Loader_v2.4.elf",
@@ -26,20 +40,6 @@
     "release_date": "2026-07-06",
     "version": "v2.4 FW 3.00-7.61",
     "checksum": "51382795b486f7c5a3681648d457d129088311fc3f9601aeaff78dc72fafcf1d"
-  },
-  {
-    "name": "PS5Upload",
-    "filename": "PS5Upload_v3.3.26.elf",
-    "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/PS5Upload_v3.3.26.elf",
-    "source": "https://github.com/phantomptr/ps5upload/releases",
-    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v3.3.26/ps5upload-3.3.26.elf",
-    "asset_pattern": "ps5upload.*\\.elf",
-    "category": "File Transfer",
-    "description": "PS5 Upload is a tool designed to get your apps and homebrew onto your console without the headache of slow transfers.",
-    "last_update": "2026-07-06",
-    "release_date": "2026-07-06",
-    "version": "v3.3.26",
-    "checksum": "beb9e376f74a392d51496045231d51ad9744f812bce09b3906661eb3e7555013"
   },
   {
     "name": "BFpilot",
