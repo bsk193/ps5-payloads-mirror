@@ -1,5 +1,19 @@
 [
   {
+    "name": "PS5Upload",
+    "filename": "PS5Upload_v4.0.0.elf",
+    "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/PS5Upload_v4.0.0.elf",
+    "source": "https://github.com/phantomptr/ps5upload/releases",
+    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v4.0.0/ps5upload-4.0.0.elf",
+    "asset_pattern": "ps5upload.*\\.elf",
+    "category": "File Transfer",
+    "description": "PS5 Upload is a tool designed to get your apps and homebrew onto your console without the headache of slow transfers.",
+    "last_update": "2026-07-11",
+    "release_date": "2026-07-11",
+    "version": "v4.0.0",
+    "checksum": "ba8de000b8a20a624352f445b8e2d4ead541c191eb3c3efece4ff5ea01745ed4"
+  },
+  {
     "name": "ELF Arsenal",
     "filename": "ELF_Arsenal_v1.6.22.elf",
     "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/ELF_Arsenal_v1.6.22.elf",
@@ -12,20 +26,6 @@
     "release_date": "2026-07-09",
     "version": "v1.6.22 FW 4.51-12.70",
     "checksum": "ee8f47e4d6a5fd85cef113341aa1eb74d68e373a58fcb1fb5a9274acd2b83bd2"
-  },
-  {
-    "name": "PS5Upload",
-    "filename": "PS5Upload_v3.4.0.elf",
-    "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/PS5Upload_v3.4.0.elf",
-    "source": "https://github.com/phantomptr/ps5upload/releases",
-    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v3.4.0/ps5upload-3.4.0.elf",
-    "asset_pattern": "ps5upload.*\\.elf",
-    "category": "File Transfer",
-    "description": "PS5 Upload is a tool designed to get your apps and homebrew onto your console without the headache of slow transfers.",
-    "last_update": "2026-07-09",
-    "release_date": "2026-07-09",
-    "version": "v3.4.0",
-    "checksum": "a3e48a38e0591a303b539a3dc0fe512b292135ff6ba3c2e7315e28c3ce3f8234"
   },
   {
     "name": "PS5 Linux Loader",
