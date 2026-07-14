@@ -1,17 +1,30 @@
 [
   {
     "name": "BFpilot",
-    "filename": "BFpilot_v0.3.8-test-clean.elf",
-    "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/BFpilot_v0.3.8-test-clean.elf",
+    "filename": "BFpilot_v0.3.9-test.elf",
+    "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/BFpilot_v0.3.9-test.elf",
     "source": "https://github.com/ItsBlurf/BFpilot/releases",
-    "source_direct": "https://github.com/ItsBlurf/BFpilot/releases/download/v0.3.8-test-clean/bfpilot.elf",
+    "source_direct": "https://github.com/ItsBlurf/BFpilot/releases/download/v0.3.9-test/bfpilot.elf",
     "asset_pattern": "^bfpilot\\.elf$",
     "category": "File Manager",
     "description": "Lightweight PS5 file manager that is browser based",
-    "last_update": "2026-07-12",
-    "release_date": "2026-07-12",
-    "version": "v0.3.8-test-clean",
-    "checksum": "bfd6232f1c8bb51a04986674286f2df950afdbccfa04c1246310f4bdf646c929"
+    "last_update": "2026-07-13",
+    "release_date": "2026-07-13",
+    "version": "v0.3.9-test",
+    "checksum": "c97c6a29fbb51af55d6b28e3f03c3f235fe0ac586ea09faabaa452f08f60c2b5"
+  },
+  {
+    "name": "Garlic Save Manager",
+    "filename": "Garlic_Save_Manager_v1.12.elf",
+    "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/Garlic_Save_Manager_v1.12.elf",
+    "source": "https://git.etawen.dev/earthonion/garlic-savemgr/releases",
+    "source_direct": "https://git.etawen.dev/earthonion/garlic-savemgr/releases/download/v1.12/garlic-savemgr.elf",
+    "category": "Save Manager",
+    "description": "PS5 save decrypt/encrypt/browse with embedded web UI.",
+    "last_update": "2026-07-13",
+    "release_date": "2026-07-13",
+    "version": "v1.12",
+    "checksum": "245150007dd2c48da6d0fdf791396a31434095e27f0175587b7b18ec3b8d6d5d"
   },
   {
     "name": "BFpilot Installer",
@@ -163,19 +176,6 @@
     "release_date": "2026-06-14",
     "version": "v1.5.0",
     "checksum": "6cf6a738112fc339619ebe772690fa611f60ecdb20164a0e3f49e137277bc42b"
-  },
-  {
-    "name": "Garlic Save Manager",
-    "filename": "Garlic_Save_Manager_v1.10.elf",
-    "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/Garlic_Save_Manager_v1.10.elf",
-    "source": "https://git.etawen.dev/earthonion/garlic-savemgr/releases",
-    "source_direct": "https://git.etawen.dev/earthonion/garlic-savemgr/releases/download/v1.10/garlic-savemgr.elf",
-    "category": "Save Manager",
-    "description": "PS5 save decrypt/encrypt/browse with embedded web UI.",
-    "last_update": "2026-06-11",
-    "release_date": "2026-06-11",
-    "version": "v1.10",
-    "checksum": "b82bf7aa83943c957f56c1b65c0739057d6b21f5b417215db17c9418fc265a27"
   },
   {
     "name": "Payload Manager",
