@@ -1,31 +1,58 @@
 [
   {
+    "name": "PS5Upload",
+    "filename": "PS5Upload_v4.1.1.elf",
+    "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/PS5Upload_v4.1.1.elf",
+    "source": "https://github.com/phantomptr/ps5upload/releases",
+    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v4.1.1/ps5upload-4.1.1.elf",
+    "asset_pattern": "ps5upload.*\\.elf",
+    "category": "File Transfer",
+    "description": "PS5 Upload is a tool designed to get your apps and homebrew onto your console without the headache of slow transfers.",
+    "last_update": "2026-07-18",
+    "release_date": "2026-07-18",
+    "version": "v4.1.1",
+    "checksum": "735649781657227bb6a95e90e606df73bf6b54fdb5e5831ef35431a7c014f55b"
+  },
+  {
     "name": "BFpilot",
-    "filename": "BFpilot_v0.4.0.elf",
-    "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/BFpilot_v0.4.0.elf",
+    "filename": "BFpilot_v0.4.1.elf",
+    "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/BFpilot_v0.4.1.elf",
     "source": "https://github.com/ItsBlurf/BFpilot/releases",
-    "source_direct": "https://github.com/ItsBlurf/BFpilot/releases/download/v0.4.0/bfpilot.elf",
+    "source_direct": "https://github.com/ItsBlurf/BFpilot/releases/download/v0.4.1/bfpilot.elf",
     "asset_pattern": "^bfpilot\\.elf$",
     "category": "File Manager",
     "description": "Lightweight PS5 file manager that is browser based",
-    "last_update": "2026-07-14",
-    "release_date": "2026-07-14",
-    "version": "v0.4.0",
-    "checksum": "7c3e9b5c28013304aae71c84aeb1f5d138a5178df3924f7398f239bd6626d81f"
+    "last_update": "2026-07-17",
+    "release_date": "2026-07-17",
+    "version": "v0.4.1",
+    "checksum": "e3ae75f6ab1eeb7dfea6ffd66b0095bb9af9a597d4c7b2ba3435d8922f0adef9"
   },
   {
     "name": "BFpilot Installer",
-    "filename": "BFpilot_Installer_v0.4.0.elf",
-    "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/BFpilot_Installer_v0.4.0.elf",
+    "filename": "BFpilot_Installer_v0.4.1.elf",
+    "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/BFpilot_Installer_v0.4.1.elf",
     "source": "https://github.com/ItsBlurf/BFpilot/releases",
-    "source_direct": "https://github.com/ItsBlurf/BFpilot/releases/download/v0.4.0/bfpilot-launcher-installer.elf",
+    "source_direct": "https://github.com/ItsBlurf/BFpilot/releases/download/v0.4.1/bfpilot-launcher-installer.elf",
     "asset_pattern": "bfpilot-launcher-installer",
     "category": "File Manager",
     "description": "Homescreen tile creator/installer for BFpilot",
-    "last_update": "2026-07-14",
-    "release_date": "2026-07-14",
-    "version": "v0.4.0",
-    "checksum": "17c60a5c4c704026883deafe2dd5e1a70afcf1d0c04cb0c14c20c388347f3c76"
+    "last_update": "2026-07-17",
+    "release_date": "2026-07-17",
+    "version": "v0.4.1",
+    "checksum": "a9e955b70f3e9425b76db70c7791e5386997ff4d0f59d0ceb820d5eaaf0d7f56"
+  },
+  {
+    "name": "Payload Manager",
+    "filename": "Payload_Manager_v0.3.3.elf",
+    "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/Payload_Manager_v0.3.3.elf",
+    "source": "https://github.com/itsPLK/pldmgr/releases",
+    "source_direct": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.3.3/pldmgr_v0.3.3.elf",
+    "category": "Utilities",
+    "description": "A modern, web-based dashboard to easily manage, import, and automatically load payloads on your PS5.",
+    "last_update": "2026-07-17",
+    "release_date": "2026-07-17",
+    "version": "v0.3.3",
+    "checksum": "8a214dcc190c893b1dea43ab64cb89c431a34630906c31413f6f44c0389b698e"
   },
   {
     "name": "Garlic Save Manager",
@@ -39,20 +66,6 @@
     "release_date": "2026-07-13",
     "version": "v1.12",
     "checksum": "245150007dd2c48da6d0fdf791396a31434095e27f0175587b7b18ec3b8d6d5d"
-  },
-  {
-    "name": "PS5Upload",
-    "filename": "PS5Upload_v4.0.0.elf",
-    "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/PS5Upload_v4.0.0.elf",
-    "source": "https://github.com/phantomptr/ps5upload/releases",
-    "source_direct": "https://github.com/phantomptr/ps5upload/releases/download/v4.0.0/ps5upload-4.0.0.elf",
-    "asset_pattern": "ps5upload.*\\.elf",
-    "category": "File Transfer",
-    "description": "PS5 Upload is a tool designed to get your apps and homebrew onto your console without the headache of slow transfers.",
-    "last_update": "2026-07-11",
-    "release_date": "2026-07-11",
-    "version": "v4.0.0",
-    "checksum": "ba8de000b8a20a624352f445b8e2d4ead541c191eb3c3efece4ff5ea01745ed4"
   },
   {
     "name": "ELF Arsenal",
@@ -176,19 +189,6 @@
     "release_date": "2026-06-14",
     "version": "v1.5.0",
     "checksum": "6cf6a738112fc339619ebe772690fa611f60ecdb20164a0e3f49e137277bc42b"
-  },
-  {
-    "name": "Payload Manager",
-    "filename": "Payload_Manager_v0.3.1.elf",
-    "url": "https://github.com/bsk193/ps5-payloads-mirror/releases/download/payloads-mirror/Payload_Manager_v0.3.1.elf",
-    "source": "https://github.com/itsPLK/pldmgr/releases",
-    "source_direct": "https://github.com/itsPLK/ps5-payload-manager/releases/download/v0.3.1/pldmgr_v0.3.1.elf",
-    "category": "Utilities",
-    "description": "A modern, web-based dashboard to easily manage, import, and automatically load payloads on your PS5.",
-    "last_update": "2026-06-06",
-    "release_date": "2026-06-06",
-    "version": "v0.3.1",
-    "checksum": "518740adbacccb9094fadb07dd424c53ee290f38306449ccc9d6957fdf813c0b"
   },
   {
     "name": "nanoDNS",
