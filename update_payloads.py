@@ -138,6 +138,7 @@ def update_readme():
     table_content = "\n".join(table_rows)
     readme_path = "README.md"
     
+    support_section = "\n## Support & Suggestions\n\nIf you have suggestions for a new payload to be added or if there's an important issue with some payload, please report them in the [Issues section](https://github.com/bsk193/ps5-payloads-mirror/issues/new).\n"
     template = f"""# PS5 Payloads Mirror
 
 This repository contains an automated mirror of useful payloads for the PlayStation 5.
@@ -149,11 +150,7 @@ This repository contains an automated mirror of useful payloads for the PlayStat
 {table_content}
 
 <!-- PAYLOADS_END -->
-
-## Support & Suggestions
-
-If you have suggestions for a new payload to be added or if there's an important issue with some payload, please report them in the [Issues section](https://github.com/bsk193/ps5-payloads-mirror/issues/new).
-"""
+{support_section}"""
 
     if not os.path.exists(readme_path):
         print(f"Creating {readme_path}...")
@@ -170,6 +167,10 @@ If you have suggestions for a new payload to be added or if there's an important
         if start_marker in content and end_marker in content:
             pattern = re.compile(f"{start_marker}.*?{end_marker}", re.DOTALL)
             new_content = pattern.sub(f"{start_marker}\n\n{table_content}\n\n{end_marker}", content)
+            new_content = new_content.replace(
+                "https://github.com/itsPLK/ps5-payloads-mirror/issues/new",
+                "https://github.com/bsk193/ps5-payloads-mirror/issues/new"
+            )
             with open(readme_path, "w", newline="\n") as f:
                 f.write(new_content)
         else:
